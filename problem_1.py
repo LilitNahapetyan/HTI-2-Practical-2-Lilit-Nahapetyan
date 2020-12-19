@@ -1,0 +1,5 @@
+a1 = int(input("The first number of progression :"))
+a2 = int(input("The second number of progression :"))
+n = int(input("What number do you want to know? :"))
+num = a1 + (n-1)*(a2-a1)
+print("It is" , num)

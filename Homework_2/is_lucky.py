@@ -4,7 +4,7 @@ num = [int(i) for i in list(number[0:int(len(number))])]
 
 half_sum = 0
 sum = 0
-for i in range(0, int(len(number)/2)):
+for i in range(0, int(len(number)//2)):
     half_sum = half_sum + num[i]
 for i in range(0, int(len(number))):
     sum = sum + num[i]

@@ -1,6 +1,6 @@
 number = input("Print number which contains an even number of characters: ")
 
-num = [int(i) for i in list(number[0:int(len(number))])]
+num = [int(i) for i in number]
 
 half_sum = 0
 sum = 0

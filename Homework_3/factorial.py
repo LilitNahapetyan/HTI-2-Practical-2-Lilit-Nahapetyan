@@ -4,7 +4,7 @@ def my_factorial(n):
     #0! = 1
     elif n >= 0:
         fact = 1
-        while(n > 0):
+        while n > 0:
             fact *= n
             n -= 1
         return fact

@@ -1,12 +1,13 @@
 def is_prime(num):
-    x, sum = 1, 0
-    while x <= num:
+    x, sum = 2, 0
+    while x <= num - 1:
         if num % x == 0:
-            sum += 1
+            print("No")
+            break
         x += 1
-    if sum == 2:
-        print("Yes")
     else:
-        print("No")
+        print("Yes")
+
+
 num = int(input("Num: "))
 is_prime(num)

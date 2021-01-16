@@ -6,7 +6,7 @@ def sum_of_digit(num):
             sum = 0
         else:
             sum += num % 10
-            num //=10
+            num //= 10
     return sum
 
 num = int(input("Number: "))

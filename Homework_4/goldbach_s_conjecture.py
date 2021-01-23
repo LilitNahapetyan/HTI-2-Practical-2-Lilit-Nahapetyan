@@ -20,4 +20,4 @@ num = int(input("Enter even number greater than 2: "))
 if 2 < num and num % 2 == 0:
     print(goldbach(num))
 else:
-    print("This number is Odd or Is greater than 2")
+    print("This number is Odd or smaller than 2")

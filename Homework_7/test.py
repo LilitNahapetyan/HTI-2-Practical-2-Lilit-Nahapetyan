@@ -20,6 +20,7 @@ str2 = [
 "email.example.com",
 "@example.com"
 ]
+
 for i in str1:
     if validator.validate_phone_number(i):
         print(f"{i} is valid phone number")

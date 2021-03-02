@@ -12,7 +12,7 @@ def generator_odd(start,stop):
                     yield start
                 if i % 2 == 0:
                     break
-            start += 1
+            start += 2
 
 
 if __name__ == "__main__":

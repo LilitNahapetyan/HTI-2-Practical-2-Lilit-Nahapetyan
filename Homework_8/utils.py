@@ -1,18 +1,17 @@
 import sys
 
 def generator_odd(start,stop):
+    if start % 2 == 0:
+        start += 1
     while start < stop:
-        if start % 2 == 0:
-            start += 1
-        else:
-            i = start
-            while i != 0:
-                i //= 10
-                if i < 10 and i % 2 == 1:
-                    yield start
-                if i % 2 == 0:
-                    break
-            start += 2
+        i = start
+        while i != 0:
+            i //= 10
+            if i < 10 and i % 2 == 1:
+                yield start
+            if i % 2 == 0:
+                break
+        start += 2
 
 
 if __name__ == "__main__":

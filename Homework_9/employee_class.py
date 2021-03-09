@@ -42,6 +42,8 @@ class Employee:
     def emp_salary(self,new_salary):
         self._salary = new_salary
 
+    def __add__(selfself, value):
+        return Employee(self._salary + value)
 
     @property
     def work_email(self):
@@ -104,7 +106,7 @@ print(emp1)
 print(emp1.experience)
 print(emp1.work_email)
 print(emp1.trial_passed)
-
+print(emp1._salary + 100)
 
 
 
